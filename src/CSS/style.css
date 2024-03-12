@@ -1,0 +1,64 @@
+body {
+  background-color: antiquewhite;
+}
+
+.mainContainer {
+  border: 1px solid black;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+}
+/* .page{
+  border: 1px solid black;
+} */
+.options{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.page-container{ 
+ margin: auto;
+ display: block;
+}
+
+
+.sortBy {
+  text-align: end;
+
+}
+
+.box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dropDown {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(223, 249, 249);
+  width: 200px;
+}
+
+@media screen and (max-width: 320px) {
+  .options {
+    height: 50px;
+    width: 100px; 
+    border: 1px solid black;
+    margin: auto;
+   
+  }
+  .StackItem{
+    /* min-width: 100px; */
+    border: 1px solid black;
+    margin: 0;
+    
+    
+  }
+  .optionItems{
+    width: 45px;
+  }
+ 
+}
+
